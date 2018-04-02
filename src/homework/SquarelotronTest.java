@@ -29,14 +29,11 @@ public class SquarelotronTest {
 	public void testUpsideDownFlip() {
 		assertEquals(squareRotate.upsideDownFlip(1).squarelotron[0][0],13 );
 		assertEquals(squareRotate.upsideDownFlip(2).squarelotron[1][1],10 );
-		
-		
-	
 	}
 
 	@Test
 	public void testMainDiagonalFlip() {
-		fail("Not yet implemented");
+		assertEquals(squareRotate.mainDiagonalFlip(1).squarelotron[0][1],6 );
 	}
 
 	@Test
